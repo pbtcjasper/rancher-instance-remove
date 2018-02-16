@@ -8,6 +8,6 @@ WORKDIR /opt/app
 RUN yarn global add pm2
 
 # Bundle app source
-COPY ./ /usr/app
+COPY ./ /opt/app
 
 CMD [ "/opt/app/run.sh" ]
